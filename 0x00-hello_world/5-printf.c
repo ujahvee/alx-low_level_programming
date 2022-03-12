@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the phrase "with proper grammer, but the outcome is a piece of art,"
+ * main - Entry point
  * Return: Always 0 if existed properly, non-zero otherwise
  */
 int main(void)
