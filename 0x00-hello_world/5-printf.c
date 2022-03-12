@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - prints the phrase "with proper grammer, but the outcome is a piece of art,"
  * Return: Always 0 if existed properly, non-zero otherwise
  */
 int main(void)
 {
-	printf("with proper grammer, but the outcome is s piece of art.\n");
+	printf("with proper grammer, but the outcome is s piece of art,\n");
 	return (0);
 }
