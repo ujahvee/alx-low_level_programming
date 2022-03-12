@@ -2,10 +2,10 @@
 
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ * Return: Always 0 if existed properly, non-zero otherwise
  */
 int main(void)
 {
-	printf("with proper grammer, but the outcome is s piece of art.");
+	printf("with proper grammer, but the outcome is s piece of art.\n");
 	return (0);
 }
