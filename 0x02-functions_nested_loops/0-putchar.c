@@ -9,13 +9,13 @@
 int main(void)
 {
 	putchar('_');
-	_putchar('p');
+	putchar('p');
 	putchar('u');
-	_putchar('t');
+	putchar('t');
 	putchar('c');
-	_putchar('h');
+	putchar('h');
 	putchar('a');
-	_putchar('r');
+	putchar('r');
 	putchar('\n');
 
 	return (0);
