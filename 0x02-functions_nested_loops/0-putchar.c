@@ -1,21 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /*
- * main - Entry block
- * Description: print holberton on new line   "holberton": Unkown word.
- * Return: 0
+ * main - prints _putchar
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
-	char c[5] = "_putchar";
-
-	int i = 0;
-
-	while (i < 5)
-	{
-		_putchar(c[i]);
-		i++;
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
