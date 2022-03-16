@@ -10,13 +10,13 @@ int main(void)
 {
 	putchar('_');
 	_putchar('p');
-	_putchar('u');
+	putchar('u');
 	_putchar('t');
-	_putchar('c');
+	putchar('c');
 	_putchar('h');
-	_putchar('a');
+	putchar('a');
 	_putchar('r');
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
