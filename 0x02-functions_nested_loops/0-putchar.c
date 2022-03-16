@@ -9,8 +9,8 @@
 int main(void)
 {
 	putchar('_');
-	_putchar('p');
-	_putchar('u');
+	putchar('p');
+	putchar('u');
 	putchar('t');
 	putchar('c');
 	putchar('h');
