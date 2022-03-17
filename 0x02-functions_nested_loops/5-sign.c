@@ -22,9 +22,10 @@ int print_sign(int n)
 		_putchar('0');
 	}
 	else
+	{
 		value = -1;
-	_putchar('-');
-}
+		_putchar('-');
+	}
 
-return (value);
+	return (value);
 }
