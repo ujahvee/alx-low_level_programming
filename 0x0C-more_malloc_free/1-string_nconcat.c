@@ -9,6 +9,7 @@
  *
  * Return: pointer to the allocated memory.
  * if malloc fails, status value is equal to 98.
+ *
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -34,7 +35,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	sout = malloc(lsout + 1);
 
-	if (sout == Null)
+	if (sout == NULL)
 		return (NULL);
 
 	for (i = 0; i < lsout; i++)
